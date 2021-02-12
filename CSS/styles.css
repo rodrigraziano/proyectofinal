@@ -1,0 +1,80 @@
+.ContenedorParrafo {
+  background-color: #ff1a1a; }
+
+.EstiloDeFuente {
+  font-weight: bolder; }
+
+.no-gutters {
+  padding: 0%;
+  margin: 0%; }
+
+body {
+  background-image: url(../Imagenes/Empanada.png);
+  background-color: #ff3300; }
+
+.logo {
+  width: 200px;
+  border-radius: 30px;
+  animation: zoomIn;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s; }
+
+.h5Animacion {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  font-family: 'Imbue', serif;
+  font-family: 'Potta One', cursive;
+  text-align: center; }
+
+@keyframes slidein {
+  from {
+    margin-left: 5%; }
+  to {
+    margin-left: 0%; } }
+
+p {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15pt; }
+
+.flaticon-gorjeo {
+  color: black; }
+
+.flaticon-gorjeo:hover {
+  color: #00b8e6; }
+
+.flaticon-facebook {
+  color: black; }
+
+.flaticon-facebook:hover {
+  color: #0000ff; }
+
+.flaticon-instagram {
+  color: black; }
+
+.flaticon-instagram:hover {
+  color: #e6005c; }
+
+.flaticon-whatsapp {
+  color: black; }
+
+.flaticon-whatsapp:hover {
+  color: #40ff00; }
+
+.flaticon-youtube {
+  color: black; }
+
+.flaticon-youtube:hover {
+  color: #e60000; }
+
+.flaticon-marcador-de-posicin {
+  color: black; }
+
+.flaticon-marcador-de-posicin:hover {
+  color: #ff0000; }
+
+footer div a {
+  text-decoration: none; }

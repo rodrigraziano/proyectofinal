@@ -1,0 +1,154 @@
+$orange:#ff3300;
+$red: #ff1a1a;
+$brown:#e63900;
+$fontstye:italic;
+$fontweight: bolder;
+$redes:black;
+$twitter:#00b8e6;
+$facebook:#0000ff;
+$instagram:#e6005c;
+$youtube:#e60000;
+$whattsap:#40ff00;
+
+
+$EstiloDeFuente:negrita;
+$contenedorparrafo:parrafo2;
+
+.ContenedorParrafo{
+
+    @if $contenedorparrafo == parrafo1  {
+        background-color: $orange ;
+      } @else if $contenedorparrafo == parrafo2 {
+        background-color:$red;
+      }
+      @else if $contenedorparrafo == parrafo3 {
+        background-color:$brown;
+      }
+      @else {
+        background-color:rgb(44, 168, 199);
+      }
+}
+
+.EstiloDeFuente{
+
+    @if $EstiloDeFuente == italica {
+        font-style: $fontstye ;
+      } @else if $EstiloDeFuente  == negrita {
+        font-weight: $fontweight;
+      }
+       @else {
+        font-style:normal;
+      }
+
+    
+}
+
+
+.no-gutters{
+
+    padding:0%;
+    margin:0%
+    }
+
+    body{
+
+        background-image:url(../Imagenes/Empanada.png);
+        background-color: $orange;
+    }
+    
+    .logo{
+    
+        width: 200px;
+        border-radius: 30px;
+        animation: zoomIn;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+    }
+    
+    .h5Animacion{
+      animation-duration: 3s;
+      animation-name: slidein;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      font-family: 'Imbue', serif;
+      font-family: 'Potta One', cursive;
+      text-align: center;
+    }
+    
+    @keyframes slidein {
+        from {
+          margin-left:5%;
+          
+        }
+      
+        to {
+         margin-left:0%;
+         
+       }
+      }
+    
+      p{
+    
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        font-size:15pt;
+    }
+
+    
+    .flaticon-gorjeo{
+        color:$redes;
+       
+    
+    }
+    
+    .flaticon-gorjeo:hover{
+        color:$twitter;
+        
+    }
+    
+    .flaticon-facebook{
+        color:$redes;
+    }
+    
+    .flaticon-facebook:hover{
+        color:$facebook;
+    }
+    
+    .flaticon-instagram{
+        color:$redes;
+    }
+    
+    .flaticon-instagram:hover{
+        color:$instagram;
+    }
+    
+    .flaticon-whatsapp{
+        color:$redes;
+    }
+    
+    .flaticon-whatsapp:hover{
+        color:$whattsap;
+    }
+    
+    .flaticon-youtube{
+        color:$redes;
+    }
+    .flaticon-youtube:hover{
+        color:$youtube;
+    
+    }
+    
+    .flaticon-marcador-de-posicin{
+    
+        color:$redes;
+    }
+    
+    .flaticon-marcador-de-posicin:hover{
+        color:#ff0000
+    }
+
+    footer div a{
+
+        text-decoration: none;
+    }
